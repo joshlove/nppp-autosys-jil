@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="Autosys JIL" ext="">
+    <UserLang name="Autosys JIL" ext="jil">
         <Settings>
             <Global caseIgnored="yes" />
             <TreatAsSymbol comment="no" commentLine="no" />
