@@ -9,7 +9,7 @@
             <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
             <Keywords name="Folder+"></Keywords>
             <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators"></Keywords>
+            <Keywords name="Operators">$$ @ ; \</Keywords>
             <Keywords name="Comment"> 1/* 1 2*/ 0# 0</Keywords>
             <Keywords name="Words1">command: machine: owner: date_conditions: days_of_week: start_times: exclude_calendar: condition: max_run_alarm: alarm_if_fail: group: application: term_run_time: box_terminator: box_name: job_terminator: job_type: description: std_err_file: std_out_file: min_run_alarm: profile: n_retrys: timezone: permission:  watch_file:  watch_file_min_size:  watch_interval:</Keywords>
             <Keywords name="Words2">insert_job: update_job: </Keywords>
@@ -27,7 +27,7 @@
             <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="2" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATORS" styleID="10" fgColor="0088FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
             <WordsStyle name="DELIMINER1" styleID="14" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
             <WordsStyle name="DELIMINER2" styleID="15" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
             <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
