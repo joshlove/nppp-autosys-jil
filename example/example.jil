@@ -1,0 +1,33 @@
+/*
+This jil is removing 2 jobs and addinG 1 job into  autosys_my_Box box
+*/
+
+
+delete_job:  autosys_job_1
+delete_job:  autosys_job_2
+
+
+/* ----------------- autosys_my_Box ----------------- */ 
+
+insert_job: autosys_my_Box   job_type: b 
+box_name: autosys_main_Box
+owner: account@domain
+permission: gx,mx
+description: "My desc"
+alarm_if_fail: 1
+timezone: London
+ 
+/* ----------------- autosys_job_main ----------------- */
+
+insert_job: autosys_job_main	job_type: c
+box_name: autosys_my_Box
+command: notepad.exe
+machine: machine
+owner: account@domain
+permission: gx,mx
+description: "My cesc"
+std_out_file: $$(path_to_logs)\%AUTO_JOB_NAME%_out.log
+std_err_file: $$(path_to_logs)\%AUTO_JOB_NAME%_err.log
+alarm_if_fail: 1
+profile: myprofile
+timezone: Vancouver 
