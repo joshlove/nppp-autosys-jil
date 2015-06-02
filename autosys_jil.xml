@@ -12,8 +12,8 @@
             <Keywords name="Operators">$$ @ ; \</Keywords>
             <Keywords name="Comment"> 1/* 1 2*/ 0# 0</Keywords>
             <Keywords name="Words1">command: machine: owner: date_conditions: days_of_week: start_times: exclude_calendar: condition: max_run_alarm: alarm_if_fail: group: application: term_run_time: box_terminator: box_name: job_terminator: job_type: description: std_err_file: std_out_file: min_run_alarm: profile: n_retrys: timezone: permission:  watch_file:  watch_file_min_size:  watch_interval: start_mins: std_in_file: run_window: max_exit_success: chk_files: job_load: priority: auto_delete:</Keywords>
-            <Keywords name="Words2">insert_job: update_job: override_job:</Keywords>
-            <Keywords name="Words3">delete_job: delete_box:</Keywords>
+            <Keywords name="Words2">insert_job: update_job: override_job: insert_machine: insert_monbro: update_monbro: insert_job_type: update_job_type: insert_xinst: update_xinst: insert_blob: insert_glob: </Keywords>
+            <Keywords name="Words3">delete_job: delete_box: delete_machine: delete_monbro: delete_job_type: delete_xinst: delete_blob: delete_glob:</Keywords>
             <Keywords name="Words4"></Keywords>
         </KeywordLists>
         <Styles>
