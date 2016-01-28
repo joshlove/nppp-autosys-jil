@@ -7,6 +7,6 @@ Import using NP++'s user defined dialogue.
 
 Example
 -----------
-[This example file ](example/example.jil)
-will look like this:
+[This example file ](example/example.jil)will look like this:
+<br/>
 ![Examples ](/example/jils_notepad.png)
